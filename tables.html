@@ -1,0 +1,91 @@
+<!-- HTML Tables All In   One -->
+<html>
+<head>
+    <title>HTML Tables all in one</title>
+</head>
+<body>
+    <h3> Simple Table(old way)</h3>
+    <table border="1" cellspacing="" cellpadding="1" width="500" height="130">
+        <caption>Student List</caption>
+        <tr>
+            <td>Name</td>
+            <td>Address</td>
+            <td>Age</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>ktm</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Hari</td>
+            <td>Ngt</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Shyam</td>
+            <td>Btl</td>
+            <td>13</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>N/A</td>
+            <td>37</td>
+        </tr>
+    </table>
+    <h3> Simple Table(new way using sections-thead,tbody,tfoot)</h3>
+    <table border="1" cellspacing="1" cellpadding="1" width="500" height="130">
+        <caption>Student List</caption>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Age</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr align="right">
+                <td>Ram</td>
+                <td>ktm</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Hari</td>
+                <td>Ngt</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Shyam</td>
+                <td align="right">Btl</td>
+                <td>13</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>N/A</td>
+                <td>37</td>
+            </tr>
+        </tfoot>
+    </table>
+    <h3> Spanning (mix) of Rows and Column in Table</h3>
+    <table border="1" bgcolor="whitesmoke" width="500" height="130">
+        <tr>
+            <td colspan="3">Statistics</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Class 8</td>
+            <td bgcolor="gray">boys</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>grils</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td colspan="2">total</td>
+            <td>130</td>
+        </tr>
+    </table>
+</body>
+</html>
